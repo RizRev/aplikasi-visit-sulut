@@ -1,0 +1,73 @@
+{
+  "expo": {
+    "name": "Visit Sulawesi",
+    "slug": "visitsulut",
+    "version": "1.1.6",
+    "orientation": "portrait",
+    "icon": "./assets/logo-app-revision.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "*/"
+    ],
+    "plugins": [
+      "@react-native-firebase/app",
+      [
+       "expo-build-properties",
+        {
+         "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "googleServicesFile": "./GoogleService-Info.plist",
+      "bundleIdentifier": "com.prodigium.visitnorthsulawesi",
+      "buildNumber": "1.1.6",
+      "infoPlist": {
+        "UIBackgroundModes": ["remote-notification"],
+        "NSCameraUsageDescription": "We need access to your camera to capture photos and videos for creating personalized content and to enhance your user experience.",
+        "NSPhotoLibraryUsageDescription": "We need access to your photo library to allow you to upload and share your favorite photos with other users of our app.",
+        "NSLocationWhenInUseUsageDescription": "We need your location to provide personalized recommendations and find nearby places of interest.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "We need your location to provide personalized recommendations and find nearby places of interest even when the app is in the background."
+      }
+    },
+    "android": {
+      "versionCode": 12,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo-app-revision.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.visit.northsulawesi",
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAuyS1LLibOZOGt-eliwsfzzTSYb3fVkmQ"
+        }
+      },
+      "permissions": [
+        "CAMERA",
+        "CAMERA_ROLL",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "NOTIFICATIONS" 
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "e642b248-965d-44a5-96cf-355f4b8a095e"
+      }
+    }
+  }
+}

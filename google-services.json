@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "893859672069",
+    "firebase_url": "https://chatapp-55894-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "chatapp-55894",
+    "storage_bucket": "chatapp-55894.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:893859672069:android:071c1dc58c769a03d7ac6c",
+        "android_client_info": {
+          "package_name": "com.visit.northsulawesi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "893859672069-ksnmt3rrq3j0t74n5slopi2tf1qhdvkh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWVv7-pyXwkf2Td5oZs1cYaukRBWjPEmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "893859672069-ksnmt3rrq3j0t74n5slopi2tf1qhdvkh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
